@@ -1,0 +1,63 @@
+*{
+   box-sizing: border-box;
+}
+body{
+    margin: 0px;
+    
+}
+.h1{
+    text-align: center;
+    margin-top: 0px;
+    font-family: 'Roboto';
+    font-size: 40px;
+}
+h1{
+    color: red;
+    padding-left: 15px;
+}
+#bg-con{
+    background-image: linear-gradient(to right,lightyellow,lightpink);
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+.first-row{
+    display: flex;
+    flex-direction: column;
+    
+}
+.in-fir-row{
+    display: grid;
+    grid-template-columns: 4fr 4fr 4fr;
+  width: 80%;
+}
+.img{
+    width: 50px;
+}
+.card{
+    display: block;
+    background-color: rgb(236, 199, 149);
+    padding: 0px 10px ;
+    border: 2px solid lightgray;
+    border-radius: 8px ;
+    transition: all 2s ease;
+    box-shadow: 5px 3px;
+    margin: 10px;
+   
+}
+.card-header{
+    height: 290px;
+}
+img{
+    width: 100%;
+}
+.card:hover{
+    background-color: rgba(141, 240, 240, 0.954);
+    box-shadow: 6px 4px #5f5f4f;
+    transform: scale(1.2);
+    cursor: pointer;
+    color: rgb(4, 60, 78);
+    
+   
+    
+}
